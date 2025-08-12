@@ -8,9 +8,9 @@ export const mcp = new MCPClient({
         'args': [
           '-y',
           'mcp-remote',
-          'https://czlonkowskin8n-mcp-railwaylatest-production-8484.up.railway.app/mcp',
+          process.env.N8N_MCP_URL!,
           '--header',
-          'Authorization: Bearer 9wdnT8kz6u7x389l7AZc4rXGLf+y89OeNXDXJioRk5Y='
+          'Authorization: Bearer ' + process.env.N8N_MCP_TOKEN!
         ]
       }
     },
