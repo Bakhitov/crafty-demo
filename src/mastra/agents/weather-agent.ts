@@ -115,8 +115,9 @@ export const weatherAgent = new Agent({
       workingMemory: {
         enabled: true,
         template: `# N8N automation workspace profile
-- **Name workflow**: 
-- **ID workflow**: 
+- **Workflow name**: 
+- **Workflow ID**:
+- **Status completed**:
 - **JSON structure draft**: 
 - **Credentials**: 
 - **Variables**: 
